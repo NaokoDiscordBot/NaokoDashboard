@@ -1,0 +1,330 @@
+table td,
+table th
+td{
+      border-radius: 1px;
+      color: #fff;
+      transition: all .4s;
+      padding: 5px 0;
+      text-shadow: 0 2px 4px rgba(4, 27, 99, 0.25);
+      background: rgba(17, 149, 247, 0.08);
+      position: relative;
+      z-index: 2;
+      vertical-align: middle;
+}
+
+.leaderboards{
+padding-bottom: 2%
+}
+.servers{
+  border: 1px solid rgba(0, 83, 251, 0.5);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+  margin-bottom: 2%;
+  width: auto;
+}
+
+
+.namber_pos{
+  width: 4%;
+  text-align: center;
+}
+.namber{
+font-size: 20px;
+font-weight: 900 !important;
+color: #fff;
+
+}
+.info{
+  width: 25%;
+
+}
+.boost{
+width: 10%;
+}
+
+.img-boost{
+  width: 80px;
+}
+
+.likes{
+  width: 10%;
+  vertical-align: middle;
+
+}
+.members{
+  width: 20%;
+
+}
+.members-online{
+  width: 20%;
+
+}
+.znach{
+  width: 25%;
+
+}
+.avatar{
+  width: 9%;
+  padding-right: 1%
+
+}
+.img-circle{
+  object-fit: cover;
+  margin: auto;
+  max-width: 70px;
+  min-width: auto;
+  height: auto;
+  pointer-events: none;
+  border-radius: 100%;
+  display: block;
+}
+.name{
+  color: #fff
+}
+.coin{
+  font-family: 'Open Sans', sans-serif;
+
+}
+.discoin{
+font-family: 'Open Sans', sans-serif;
+font-size: .75rem;
+color: #7F00FF;
+}
+.invite{
+  width: 10%;
+  padding-right: 2%;
+}
+.img-invite{
+
+
+}
+.img-discoin{
+
+}
+
+.img-fav{
+  width: 25px;
+
+}
+.img-znach{
+  width: 35px;
+
+}
+.img-znach2{
+  width: 24px;
+
+}
+.invite_badge {
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+  table td,
+  table th
+  td{
+        border-radius: 1px;
+        color: #fff;
+        transition: all .4s;
+        padding: 5px 0;
+        text-shadow: 0 2px 4px rgba(4, 27, 99, 0.25);
+        background: rgba(17, 149, 247, 0.08);
+        position: relative;
+        z-index: 2;
+        vertical-align: middle;
+  }
+
+  .leaderboards{
+  padding-bottom: 2%
+  }
+  .servers{
+    border: 1px solid rgba(0, 83, 251, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+    margin-bottom: 2%;
+    width: auto;
+  }
+
+
+  .namber_pos{
+    width: 5%;
+    text-align: center;
+  }
+  .namber{
+  font-size: 12px;
+  font-weight: 900 !important;
+  color: #fff;
+
+  }
+  .info{
+    width: 100%;
+
+  }
+  .avatar{
+    width: 18%;
+    padding-right: 1%
+
+  }
+  .img-circle{
+    object-fit: cover;
+    margin: auto;
+    max-width: 50px;
+    min-width: auto;
+    height: auto;
+    pointer-events: none;
+    border-radius: 100%;
+    display: block;
+  }
+  .name{
+  }
+  .coin{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .discoin{
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75rem;
+  color: #7F00FF;
+  }
+  .invite{
+    padding-right: 5%
+  }
+  .img-invite{
+
+
+  }
+  .img-discoin{
+
+  }
+  .invite_badge {
+
+  }
+
+}
+
+@media screen and (max-width: 400px){
+
+  table td,
+  table th
+  td{
+        border-radius: 1px;
+        color: #fff;
+        transition: all .4s;
+        padding: 5px 0;
+        text-shadow: 0 2px 4px rgba(4, 27, 99, 0.25);
+        background: rgba(17, 149, 247, 0.08);
+        position: relative;
+        z-index: 2;
+        vertical-align: middle;
+  }
+
+  .leaderboards{
+  padding-bottom: 2%
+  }
+  .servers{
+    border: 1px solid rgba(0, 83, 251, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+    margin-bottom: 2%;
+    width: auto;
+  }
+
+
+  .namber_pos{
+    width: 10%;
+    text-align: center;
+  }
+  .namber{
+  font-size: 12px;
+  font-weight: 900 !important;
+  color: #fff;
+
+  }
+  .info{
+    width: 100%;
+
+  }
+  .avatar{
+    width: 20%;
+    padding-right: 1%
+
+  }
+  .img-circle{
+    object-fit: cover;
+    margin: auto;
+    max-width: 50px;
+    min-width: auto;
+    height: auto;
+    pointer-events: none;
+    border-radius: 100%;
+    display: block;
+  }
+  .name{
+  }
+  .coin{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .discoin{
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75rem;
+  color: #7F00FF;
+  }
+  .invite{
+    padding-right: 5%
+  }
+  .img-invite{
+
+
+  }
+  .img-discoin{
+
+  }
+  .invite_badge {
+
+  }
+
+}
+
+
+
+
+
+
+
+.donate{
+padding-bottom: 2%
+
+}
+.donate_table{
+  border: 1px solid rgba(0, 83, 251, 0.5);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+  margin-bottom: 2%;
+  width: 100%;
+  height: 80px;
+}
+.donat_name{
+  width: 30% !important;
+  padding-left: 5%;
+
+}
+
+
+.description{
+  width: 30% !important;
+}
+
+
+.price{
+  width: 20% !important;
+  text-align: right;
+
+}
+
+.donate_bottom{
+  width: 20% !important;
+  text-align: right;
+
+  padding-right: 5%;
+
+
+}
