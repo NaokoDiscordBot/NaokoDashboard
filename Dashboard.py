@@ -66,6 +66,22 @@ async def donate():
         "donate.html"
     )
 
+@application.route(
+    "/team", 
+    methods=[
+        "GET"
+    ]
+)
+async def team():
+
+    """
+    Team route for our website
+    """
+
+    return await render_template(
+        "team.html"
+    )
+
 @application.errorhandler(404)
 async def handler_404(error):
 

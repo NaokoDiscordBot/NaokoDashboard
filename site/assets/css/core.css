@@ -1351,6 +1351,28 @@ body {
   opacity: 0.8
 }
 
+.feedback {
+  text-align: center
+}
+
+.feedback img {
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.feedback h4 {
+  margin-top: 10px;
+  font-family: 'Cabin', sans-serif
+}
+
+.feedback p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  opacity: 0.9
+}
+
 .side-feature {
   max-height: 250px;
   max-width: 250px;
@@ -2319,7 +2341,7 @@ ul#countdown li .label {
 
 .team-member-container .dark-card:hover .avatar .circle-chart .circle-chart-circle {
   stroke-dasharray: 100, 100;
-  stroke: #0f9
+  stroke: #6734ff
 }
 
 .team-member-container .dark-card:hover img.is-real {
@@ -2338,7 +2360,7 @@ ul#countdown li .label {
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: .75rem;
-  color: #7F00FF
+  color: rgb(255, 255, 255)
 }
 
 .team-member-container .dark-card .member-info .description {
